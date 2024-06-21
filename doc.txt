@@ -1,0 +1,8 @@
+py -m venv .   -> install vertual environment
+cd Scripts
+activate
+pip install flask
+cd ..
+py servers.py
+pip list
+pip install pymongo
